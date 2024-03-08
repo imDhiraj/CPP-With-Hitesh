@@ -18,7 +18,7 @@ char aonterapi_call() {
 int main() {
 	string apirun = api_call();
 	cout << "This 1st call :" << apirun << endl;
-
+	//cout << api_call();//we cant directly cant call functions 
 	auto apirun2 = aonterapi_call();
 	if (typeid(apirun2) == typeid(char)) {
 		cout << "This 2nd call :" << apirun2 << endl;
