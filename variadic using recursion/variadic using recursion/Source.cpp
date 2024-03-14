@@ -13,6 +13,8 @@ it works like array but in templtes which brings mor value and helps the code to
 #include<iostream>
 using namespace std;
 
+int sums = 0;
+
 template<typename T>
 void func(T t){
 	cout << "Type one " << t << endl;
@@ -23,15 +25,11 @@ void func(T t, Args... args) {
 	cout <<"Type two " << t << endl;
 	func(args...);
 }
-template<typename T, typename Y, typename... Args>
-void sum(T t,Y y,Args... args) {
-	cout <<"sum of all is : " << t + y << endl;
-	sum(args...);
-}
+
 
 int main() {
 	string MyName = "Dhiraj";
 	func(MyName);
 	func(1, 2, 3.14, MyName);
-	sum(4, 5, 6, 7);
+	
 }
