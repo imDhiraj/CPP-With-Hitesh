@@ -2,7 +2,7 @@
 using namespace std;
 
 class User {
-	int secrt = 100;    // this private member for default
+	int _secrt = 100;    // this private member for default
 
 public:
 	string name = "defult";
@@ -10,10 +10,10 @@ public:
 		cout << "How Was the Class, " << name << endl;
 	}
 	void setsecrt(const int& newsecrt) {
-		secrt = newsecrt;
+		_secrt = newsecrt;
 	}
 	int getsecrt() {
-		return secrt;
+		return _secrt; //for private varible to as std prictice we sholud use _ in front of them
 	}
 };
 int main() {
