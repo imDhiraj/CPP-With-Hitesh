@@ -3,19 +3,29 @@ using namespace std;
 
 class User {
 	int _secrt = 100;    // this private member for default
-
+	//for private varible to as std prictice we sholud use _ in front of them
 public:
 	string name = "defult";
-	void printname() {
-		cout << "How Was the Class, " << name << endl;
-	}
+	void printname();
 	void setsecrt(const int& newsecrt) {
 		_secrt = newsecrt;
 	}
-	int getsecrt() {
-		return _secrt; //for private varible to as std prictice we sholud use _ in front of them
-	}
+	int getsecrt()const;
+
+
 };
+
+void User::printname() {
+	{
+		cout << "How Was the Class, " << name << endl;
+	}
+}
+
+
+int User ::getsecrt()const {
+	return _secrt; 
+}
+
 int main() {
 
 	User Sam;
@@ -36,6 +46,10 @@ int main() {
 	Dhiraj.printname();
 	Dhiraj.name = "Dhiraj";
 	Dhiraj.printname();
+
+
+	const User Spk;                     //only non const objecct can acess the const and non const value but const value can only acess the const value only
+	cout << Spk.getsecrt() << endl;
 
 
 	cout << 0011 << endl; // zero at the starting postion make it to call/interpt as octal and in octal 011 is 9 for futher watch th folling https://youtu.be/MGu-P4OOnh0?si=bYXAp4jlnRl_MgmW
