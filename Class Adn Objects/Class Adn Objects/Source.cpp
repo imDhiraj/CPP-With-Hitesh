@@ -52,5 +52,8 @@ int main() {
 	cout << Spk.getsecrt() << endl;
 
 
+	User robin = Sam;                  // copy constucter is work like this to know more check file name constructor.cpp
+	cout << robin.getsecrt() << endl;
+
 	cout << 0011 << endl; // zero at the starting postion make it to call/interpt as octal and in octal 011 is 9 for futher watch th folling https://youtu.be/MGu-P4OOnh0?si=bYXAp4jlnRl_MgmW
 }
