@@ -24,11 +24,11 @@ Phone::Phone() {
 	cout << "this is constructor\n " << endl;
 };
 Phone::Phone(const string& name, const string& OS, const int price) {
-	name =
+	puts("Pertmetres constertur\n");
 }
 
 
 int main() {
-	Phone Samsung();
+	Phone Samsung("Samsung",);
 		
 }
