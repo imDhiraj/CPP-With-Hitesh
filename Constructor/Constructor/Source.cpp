@@ -12,6 +12,7 @@ class Phone {
 public:
 	Phone();//construtor
 	string getos()const{return _OS;}
+
 	Phone(const string& name, const string& OS, const int price) {
 		puts("Parmeter Construtor\n");
 	}
@@ -29,6 +30,6 @@ Phone::Phone(const string& name, const string& OS, const int price) {
 
 
 int main() {
-	Phone Samsung("Samsung",);
+	Phone Samsung("Samsung");
 		
 }
