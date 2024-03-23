@@ -30,6 +30,7 @@ Phone::Phone(const string& name, const string& OS, const int price) {
 
 
 int main() {
-	Phone Samsung("Samsung");
+	Phone Samsung("Samsung","oxy", 20000);
+	cout << Samsung.getos() << endl;
 		
 }
