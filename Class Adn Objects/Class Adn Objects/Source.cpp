@@ -11,10 +11,13 @@ public:
 		_secrt = newsecrt;
 	}
 	int getsecrt()const;
-
+	User();
 
 };
 
+User::User() : _secrt() {
+	puts("defult consturture");
+}
 void User::printname() {
 	{
 		cout << "How Was the Class, " << name << endl;
