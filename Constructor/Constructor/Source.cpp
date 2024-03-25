@@ -1,66 +1,28 @@
 // Read This for better understanding it about Three rule of constructer https://stackoverflow.com/questions/4172722/what-is-the-rule-of-three
 
-#include <iostream>
-#include <string> // Include string header
+#include<iostream>
+#include<string>
 using namespace std;
 
-class User {
+class Phone {
 private:
-    int _secrt = 100;
-    string _name = "";
-    string _os = "";
-    int _price = 0;
+	string _name = "";
+	string _os = "";
+	int _price = 0;
 
 public:
-    User(); // Constructor declaration
-    string getos() const; // Function declaration
-    ~User(); // Destructor declaration
-};
+	Phone();
+	string getos() {
+		return _os;
+	}
+	//	~Phone() {puts("Distructure");}
 
-// Constructor definition
-User::User() : _name(), _os("oxy"), _price() {
-    cout << "Default Constructor" << endl;
-}
-
-// Destructor definition
-User::~User() {
-    cout << "Destructor called" << endl;
-}
-
-// Function definition
-string User::getos() const {
-    return _os;
+};/////////////////////////////////////////C++ return type may not be specified on a constructor///////////////This Semi colon is most inportant other wise class whlie show follwing error 
+Phone::Phone() : _name(), _os("oxy"), _price() {
+	puts("Defult Consturture");
 }
 
 int main() {
-    User user; // Creating an object of class User
-    cout << user.getos() << endl; // Accessing member function
-    return 0;
+	Phone Samsung;
+	cout << Samsung.getos() << endl;
 }
-//// Read This for better understanding it about Three rule of constructer https://stackoverflow.com/questions/4172722/what-is-the-rule-of-three
-//
-//#include<iostream>
-//#include<iostream>
-//using namespace std;
-//
-//class User {
-//    int _secrt = 100;
-//    string _name = "";
-//    string _os = "";
-//    int _price = 0;
-//
-//public:
-//    User();
-//    string getos() {
-//        return _os;
-//    }
-//
-//}
-//User::User() : _name(), _os("oxy"), _price() {
-//    puts("Defult Consturture");
-//}
-//
-//int main() {
-//    Phone Samsung;
-//    cout << Samsung.getos() << endl;
-//}
