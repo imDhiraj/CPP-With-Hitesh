@@ -17,7 +17,7 @@ public:
 	}
 	Phone(const string& name, const string& os, const int& price);
 	Phone(const Phone&);
-	//~Phone() {puts("Distructure");}
+	~Phone();
 
 };/////////////////////////////////////////C++ return type may not be specified on a constructor///////////////This Semi colon is most inportant other wise class whlie show follwing error 
 Phone::Phone() : _name(), _os("oxy"), _price() {
@@ -30,9 +30,13 @@ Phone::Phone(const string& name, const string& os, const int& price) : _name(nam
 
 Phone::Phone(const Phone& value)  {
 	puts("copy constrture");
-	_name = value._name;
+	_name = "new"+value._name;
 	_os = "Skined-"+value._os;
 	_price = value._price;
+}
+
+Phone::~Phone() {
+	printf("the destrcture is called for %s \n", _name.c_str());
 }
 
 int main() {
