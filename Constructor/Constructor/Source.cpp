@@ -9,9 +9,9 @@ private:
 	string _name = "";
 	string _os = "";
 	int _price = 0;
-
-public:
 	Phone();
+public:
+	
 	string getos() {
 		return _os;
 	}
@@ -40,8 +40,9 @@ Phone::~Phone() {
 }
 
 int main() {
-	Phone Samsung;
-	cout << Samsung.getos() << endl;
+	//Phone Samsung; //sometime this type of construture acn make little diffecult understand to new user to remove this knind amigtity 
+	////we can do is making this function/ consrtuture private so that it can be get acces while deculering the object this remove the amigutity from code,
+	//cout << Samsung.getos() << endl;
 
 	Phone Redmi("Redmi", "Android", 7999);
 	cout << Redmi.getos() << endl;
