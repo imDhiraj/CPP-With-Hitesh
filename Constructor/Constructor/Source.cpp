@@ -18,6 +18,7 @@ public:
 	Phone(const string& name, const string& os, const int& price);
 	Phone(const Phone&);
 	~Phone();
+	int getprice();
 
 };/////////////////////////////////////////C++ return type may not be specified on a constructor///////////////This Semi colon is most inportant other wise class whlie show follwing error 
 Phone::Phone() : _name(), _os("oxy"), _price() {
@@ -27,6 +28,13 @@ Phone::Phone() : _name(), _os("oxy"), _price() {
 Phone::Phone(const string& name, const string& os, const int& price) : _name(name), _os(os), _price(price) {
 	puts("prametraes constutacture");
 }
+
+int Phone::getprice() {
+	{
+		printf("value of this redmi is %p\n", this);
+		return _price;
+	}
+};
 
 Phone::Phone(const Phone& value)  {
 	puts("copy constrture");
@@ -46,6 +54,10 @@ int main() {
 
 	Phone Redmi("Redmi", "Android", 7999);
 	cout << Redmi.getos() << endl;
+
+	printf("value of redmi is %p\n", &Redmi);
+
+	cout << Redmi.getprice() << endl;
 
 	Phone Redmi7a = Redmi;
 	cout << Redmi7a.getos() << endl;
