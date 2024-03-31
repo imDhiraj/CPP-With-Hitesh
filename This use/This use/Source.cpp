@@ -11,7 +11,7 @@ public:
 		double _breadth = b;
 	}
 	int area() {
-
+		return  2 * _length * _breadth;
 	}
 	int compare();
 };
