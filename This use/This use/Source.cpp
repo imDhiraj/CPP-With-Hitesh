@@ -15,3 +15,7 @@ public:
 	}
 	int compare();
 };
+int main() {
+	Rectangle a();
+	cout<<a.
+}
