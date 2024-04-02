@@ -17,5 +17,5 @@ public:
 };
 int main() {
 	Rectangle a();
-	cout<<a.
-}
+	cout << a;
+}//this is last commit for use less ones
