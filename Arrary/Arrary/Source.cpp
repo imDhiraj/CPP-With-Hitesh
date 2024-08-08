@@ -12,7 +12,7 @@ int main() {
 
 	* anthoer_array = 209;//this lotcte the first postion always
 	cout << anthoer_array[0] << endl;
-	//to locate the postion of arrart value in more the one we can o this using pointer.
+	//to locate the postion of arrary value in more the one we can o this using pointer.
 	int* ap = anthoer_array;
 	ap++;
 	*ap = 210;
@@ -35,4 +35,4 @@ int main() {
 	int card;
 	card = *num;
 	cout << card;
-}
+}//card-> num-> op
