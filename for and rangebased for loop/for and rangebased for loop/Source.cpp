@@ -44,7 +44,7 @@ int main() {
 	cout << "take breack  part 2\n";
 	for (char* ch = my_name; *ch != 0; ch++) {
 		cout << "this is string" << " " << *ch << "\n";
-	}//using my_name OR my_name[0] does not matter because it refers to 1st elemeant only the end goal is to satrt from 0 
+	}//using my_name OR my_name[0] does not matter because it refers to 1st elemeant only the end goal is to start from 0 
 	//and end at tramnating value in string which is "0"
 	cout << "take breack  part 3\n";
 	//for each loop
