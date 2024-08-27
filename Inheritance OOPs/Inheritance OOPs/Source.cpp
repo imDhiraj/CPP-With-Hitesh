@@ -1,6 +1,16 @@
 #include<iostream>
 using namespace std;
 
+//multi inheritance 
+// this simple means the inheritance of an multiple classes can be achvied in cpp
+
+class Money { //this can be the 2nd class we can use of inheritance fro ex. see superman
+public:
+	void getMoney() {
+		puts("i got the money 5K $ from franchaer");
+	}
+};
+
 class Man {
 	string _name;
 	int _age;
@@ -29,7 +39,7 @@ void Man::sayMyname()const {
 
 }
 //superman
-class superman :public Man {
+class superman :public Man,public Money{
 	bool flight;
 public:
 	superman(string name) : Man(name, 26) {
@@ -58,6 +68,7 @@ int main() {
 
 	clerk.sayMyname();
 	clerk.Run();
+	clerk.getMoney();//see this Money class can used here also now this is called and multiple inheritance
 
 	spiderman peter("pareker");
 	peter.sayMyname();
