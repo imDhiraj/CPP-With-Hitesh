@@ -49,6 +49,7 @@ int main() {
 
 		//shared_ptr<User>sam(new User()); 
 		// This is an not an good way to create an shared pointer because it creates exess momery
-
+		// read this for better undestanding https://learn.microsoft.com/en-us/cpp/cpp/how-to-create-and-use-weak-ptr-instances?view=msvc-170
+		// and with good expiantion of what referece count with weak pointer read this https://chatgpt.com/share/66e841ac-83f4-8009-84a0-830e0cc669d3
 	}
 }
