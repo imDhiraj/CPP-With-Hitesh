@@ -27,10 +27,28 @@ public:
 	}
 };
 int main() {
+	
+	//1.Unique Smart pointer:   Cant be copied
 	{
 		unique_ptr<User>ram(new User());// this an basic way of declering Smart pointer 
 		unique_ptr<User>sam = make_unique<User>();// this programers way of writing an unique pointers 
 		sam->testfunc();
+
+		//unique_ptr<User> tim = ram; cant be copied
 	}
-	
+
+	//2.Shared Smart pointer : can be copied and used for using single momery loction 
+	{
+		shared_ptr<User> tim = make_shared<User>();
+		shared_ptr<User> timn = tim; //coping orignal pointer is allowed in shared pointers 
+		//3. Weak poniter: it use for proper deletion of oject in shared memory
+		weak_ptr<User> wtim = tim;// it is an pointer that doesnt have frist intance like other smart pointers
+
+		tim->testfunc();
+		timn->testfunc();
+
+		//shared_ptr<User>sam(new User()); 
+		// This is an not an good way to create an shared pointer because it creates exess momery
+
+	}
 }
