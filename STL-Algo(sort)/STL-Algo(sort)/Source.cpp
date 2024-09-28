@@ -24,6 +24,17 @@ int main() {
 		Ordered Number
 		467582*/
 	
+	if (binary_search(Numbers, Numbers + 6, 13)) {
+		cout << endl<< "NUMBER_FOUND" << endl;
+	}
+	//Serach
+	//serach is as simier as it name suggest it try to find vlaue from something 
+	// it can be used seraching method like binanry and find to find dersed element from sorted array or veactor only 
+	else {
+		cout << endl << "NUMBER_NOT_FOUND" << endl;
+	}
+
+
 	cout <<endl <<"Ordered Number" << endl;
 	for (int n : Numbers) {
 		cout << n;
