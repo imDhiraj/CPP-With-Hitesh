@@ -42,4 +42,24 @@ int main() {
 		cout << conners[i] << endl;
 	}
 
+
+	vector<int> nums;
+	vector<string> Heros{ "spiderMan","superMan","ukari" };//vector can include multiple types of data direct as well
+
+	nums.push_back(4);//this is the method that is use to push the element in vector
+
+	for (int i = 0; i <= 8; i++) {
+		nums.push_back(i);// we can use loop for muliple liner elements
+	}
+	cout << "here is NUMs";
+	for (auto i = nums.begin(); i != nums.end(); i++) {// and this loop is used for for printing the vecter like normal arrey
+		cout << *i << " " << endl;// here we use pointer for referancing beacuse normal methol can't work here because of dymnmic niture of vector
+	}
+	cout << "here it ends" << endl;
+
+
+	cout << nums.size() << endl << nums.capacity() << endl << nums.max_size() << endl; //this are the some method that can be used with vetor which make using vector array so convinet
+
+	cout << nums.empty();
+
 }

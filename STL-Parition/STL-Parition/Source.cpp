@@ -30,5 +30,5 @@ int main() {
 	// 3. partition point 
 	// this create an only partition point or only element that qulifues the condition
 	
-	}
+	
 }
