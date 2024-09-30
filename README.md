@@ -2,6 +2,11 @@
 
 This repository contains C++ code examples and notes covering important concepts of the Standard Template Library (STL), Object-Oriented Programming (OOP), and various advanced C++ features. The code and explanations are based on the lecture videos by [Hitesh Sir](https://youtu.be/FpfHmAkRVK4?si=vnNdRyW2ag5qOyhu), and each commit contains a different concept for easy reference.
 
+## Video Lecture
+
+For a more detailed explanation of these topics, you can watch the lecture [here](https://youtu.be/FpfHmAkRVK4?si=vnNdRyW2ag5qOyhu).
+
+---
 ## Table of Contents
 - [STL Concepts](#stl-concepts)
 - [Smart Pointers](#smart-pointers)
