@@ -28,7 +28,7 @@ For a more detailed explanation of these topics, you can watch the lecture [here
 7. **[Searching](https://github.com/imDhiraj/CPPWithHitesh/commit/b7bb21d)**: Overview of searching techniques in STL using sorted arrays and the `find` function in vectors.
 8. **[Sorting](https://github.com/imDhiraj/CPPWithHitesh/commit/afee4ac)**: Various STL sorting functions and algorithms with generic usage.
 9. **[Functors](https://github.com/imDhiraj/CPPWithHitesh/commit/10d9d5f)**: Introduction to functors in C++, objects that behave like functions with the `()` operator.
-10. **[Move Semantics](https://github.com/imDhiraj/CPPWithHitesh/commit/58e6756)**: A performance optimization technique that allows moving data instead of copying, leading to memory efficiency.
+
 
 ## Smart Pointers
 
