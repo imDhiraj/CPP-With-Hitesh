@@ -1,58 +1,67 @@
-File handling It has been most atterative thing in cpp tell now because it show how can the files get created by code this use Function called FILE that has all nessery function that can be used for file createing , updating , remaoveing and renameing
-file handling it has some cool operation like createing deleteating and update ing an file function that can be acutullay make changes in system the exe file is there to see the it has actully created an file with that commends
-Lambdas it small inline function that can written an where in in the program so that we can use it soon as we need for faster assibletity it start with [] it has multiple use cases when it is used for bigger code bases
-Vector vector is dynamic arrays which can modify it size with requirement it has lot of function that can easis the hadling the array but also little diffecult, because we cant use tranditnal method to print the entrie array it have differnet menthod for it also
-Move sematics this an std liberied function that anble vlaue to be move to create better memory optization and resolve 2x time space problem in same cases
-weak pointer some good expaintion about weak pointer with expaining refarance count and examples of it
-Smart Pointer Shared pointer and weak pointer this other type of smart pointer  that which shared pointer allows copy of pointer and weak pointer allows proper deletio of object in shared memorys
-Smart pointers its made for soving issue of space allocation in program and delete ing after using it it has multiple types in which 1 is expalian here which is unique pointer as name suggestes it creates unique pointer that different form other and it is has scope that which can exestes
-using virtual keyword - it use when pointer in polymorphisum
-multi inheritance can done in cpp it bassical means an using mulitple classes at same time to genrtat info
-USe of Friend class &its cons of use
-How to witre an base class for Inheritance and then use it for multiple inheritanceted classes Rule#1 work more on base class so we not write more in inhertiaced class
-Merge branch 'master' of https://github.com/imDhiraj/CPPWithHitesh
-expaination of THIS keyword with two expaination 1. hitesh which reprantes how this can be used in cpp 2. telsko why we use this
-Update Source.cpp
-.
-let see change
-this tryly next will be propre this for strice commet
-THIS - it is an key word for the used verious perposes it will used in frether code
-start of this key word
-how to reduce amibguty from code so that code make esay to read with construture we can do this by privates the construture so the it get kind of disbled for access
-this is constrcture, copy constrcture and desrcture in cpp we can use the for mulitple use cases mose used one being paremeters constructer which have caplblties to get acces of private maebers in easy way
-rule of 3 for consterutre topic is done there are more thing but consture in nice
-Final C++ return type may not be specified on a constructor this error is resovled Just missing semi colon but it is proboting the class to consterte
-error identfy what is the error in pervious code?
-function call
-Readed th rule of 3 inshort after c++11 we chould define the an implsit function it will lead to head after words.
-.
-construture use and rewrite
-intro to constructor
-only thing that can const qulifed object in main can acess is const qullfied varblies
-_ std
-getting & setting of value using poiter for pulic and private values | And how ther type like octal no. system can be called .
-Class and objects , this just basic Start for OPP conspect Default visbluty if objects is private
-change
-variadic i the function which unble to take mulple value in singiunge funtion with using recurion this can extented
-MACROS Easy way to define something in cose so we can reuse that but somtime it can nbe cause of multlpe error so use accroudingly
-recursion is very widely used term that gives the answer for lillte less code the calling loops it has only candioton we have to end the recursus function otherwise it wll repeat untill stack memory runout
-it has to major topic know as Nullponter which help to reduce amibot in csome extented in code and 2nd is how function overloding can be get invlde in some major problems
-after using function use of it for different way matter for optimal code so function pointer gives that only
-function little detlited use method to call like 1.call by value /ref. and making of header of file so different function can be made to use in one funtion
-it talks about memory alloction perform in in cpp/computer in low level langs like cpp most on to topic 1 - stack(staitic) 2- heap (dynimically)
-Merge pull request #1 from imDhiraj/test
-question around storgly type ness of cpp with auto keyword and it use
-it is used for predefine some values in code that shoud be used reppetively both eunm and preposscer have its use but eunm is little better
-it genrate UD-datatypes that can be stuctureed it is like class but it this are public types by defluft and it define an stucuture
-it is an imp topic in proggerming because it deals with the memory use in system In this progrm one of the memory leak case was expained
-bit wise oprater are most used in interview it has 5 main term involves lot like bool opertions in AND OR NOT MUltiple  Divide
-it reperents how we can use AND ,OR optation for login base auth systems
-most used type of operation in cpp are written but there has to be some specfic use in that so that we can use it 1. combine oprition for storeing the value with  less space uses (ex.+=)
-this has an info of lots of thinks like 1. basics of functions 2. linker in cpp 3. (most imp)Qulifers and its types with incemnet operatoers
-we 2 thinks here as well 1. float down side with th prsoon some time ans it solution for batter use of presionnated values 2. try catch bolck code is used in cpp for expection hadling and having lots of good impact of it over the code and some key uses of it for begger level
-most two majer thing 1 for-each loop(range based loop) 2 we can use reverse logic to stop things
-new term which tell that if we want to use loop use funtion like while , do..while , or for but for singluer condition cheacking we can use if or if..else kind function
-swicth canse
-Add new file and assignmets
-Add project files.
-Add .gitattributes and .gitignore.
+adb6669 - STL-Priority queue it is an sub type of queue which used priority based work like thaerad which need to be run bease of work quntity
+da2f723 - STL-queue  it is an type of contanier in STL that can make list of elements ,it can of same like vector Just queue is not store in contiouns form of storge like vector and it is most used in doblue linklist
+8bb7a74 - STL - LIst it is type of contanier like vecter this also work aroun storeing multple value but not in in contnous memery an major ly used in double linklist
+5d4eb07 - STL- vector 1 It contains some of the majerly used vecor method that are most useful and how vector define size of dynimic array
+f8a7516 - vecter method different aprochs
+3a2b0b2 - Partition it is also an use full STL method that can be used for creating partition based on contions it has 3 type as well 1 .base partition 2. satble partition 3. partition point
+b7bb21d - Serching: serching is also an very imp aspect of STL it utlizes sort array for serching an element and in vector we can use find for serching as while
+afee4ac - Sort sort is the one the STL function from its type Algorithm which is used for sort thing it has multple function that can be use for spicfic sort genrize way of using it is Sort finction
+10d9d5f - Functors:  it like opertor overloading but very spicfic one which only involves () round or perantess barckets
+8a0bac7 - File handling It has been most atterative thing in cpp tell now because it show how can the files get created by code this use Function called FILE that has all nessery function that can be used for file createing , updating , remaoveing and renameing
+8a717b2 - file handling it has some cool operation like createing deleteating and update ing an file function that can be acutullay make changes in system the exe file is there to see the it has actully created an file with that commends
+9551ccd - Lambdas it small inline function that can written an where in in the program so that we can use it soon as we need for faster assibletity it start with [] it has multiple use cases when it is used for bigger code bases
+e43f37a - Vector vector is dynamic arrays which can modify it size with requirement it has lot of function that can easis the hadling the array but also little diffecult, because we cant use tranditnal method to print the entrie array it have differnet menthod for it also
+58e6756 - Move sematics this an std liberied function that anble vlaue to be move to create better memory optization and resolve 2x time space problem in same cases
+32c352d - weak pointer some good expaintion about weak pointer with expaining refarance count and examples of it
+d0e34db - Smart Pointer Shared pointer and weak pointer this other type of smart pointer  that which shared pointer allows copy of pointer and weak pointer allows proper deletio of object in shared memorys
+c1672dd - Smart pointers its made for soving issue of space allocation in program and delete ing after using it it has multiple types in which 1 is expalian here which is unique pointer as name suggestes it creates unique pointer that different form other and it is has scope that which can exestes
+e43fa94 - using virtual keyword - it use when pointer in polymorphisum
+4187317 - multi inheritance can done in cpp it bassical means an using mulitple classes at same time to genrtat info
+788ca14 - USe of Friend class &its cons of use
+6cf67fe - How to witre an base class for Inheritance and then use it for multiple inheritanceted classes Rule#1 work more on base class so we not write more in inhertiaced class
+7d16239 - Merge branch 'master' of https://github.com/imDhiraj/CPPWithHitesh
+ff47000 - expaination of THIS keyword with two expaination 1. hitesh which reprantes how this can be used in cpp 2. telsko why we use this
+6b30335 - Update Source.cpp
+212aac7 - .
+30abe80 - let see change
+3c81ce3 - this tryly next will be propre this for strice commet
+f047d09 - THIS - it is an key word for the used verious perposes it will used in frether code
+4646285 - start of this key word
+c2e92f9 - how to reduce amibguty from code so that code make esay to read with construture we can do this by privates the construture so the it get kind of disbled for access
+5588836 - this is constrcture, copy constrcture and desrcture in cpp we can use the for mulitple use cases mose used one being paremeters constructer which have caplblties to get acces of private maebers in easy way
+1106419 - rule of 3 for consterutre topic is done there are more thing but consture in nice
+4beac94 - Final C++ return type may not be specified on a constructor this error is resovled Just missing semi colon but it is proboting the class to consterte
+1b361fd - error identfy what is the error in pervious code?
+8efa08f - function call
+8080675 - Readed th rule of 3 inshort after c++11 we chould define the an implsit function it will lead to head after words.
+0f92275 - .
+98dcdf6 - construture use and rewrite
+4f03d42 - intro to constructor
+96f56de - only thing that can const qulifed object in main can acess is const qullfied varblies
+6bb469d - _ std
+2ae4401 - getting & setting of value using poiter for pulic and private values | And how ther type like octal no. system can be called .
+31e999d - Class and objects , this just basic Start for OPP conspect Default visbluty if objects is private
+4f9ae09 - change
+c5641bd - variadic i the function which unble to take mulple value in singiunge funtion with using recurion this can extented
+ddf58b2 - MACROS Easy way to define something in cose so we can reuse that but somtime it can nbe cause of multlpe error so use accroudingly
+b6b449d - recursion is very widely used term that gives the answer for lillte less code the calling loops it has only candioton we have to end the recursus function otherwise it wll repeat untill stack memory runout
+aa4d124 - it has to major topic know as Nullponter which help to reduce amibot in csome extented in code and 2nd is how function overloding can be get invlde in some major problems
+77fb6e6 - after using function use of it for different way matter for optimal code so function pointer gives that only
+23aafd7 - function little detlited use method to call like 1.call by value /ref. and making of header of file so different function can be made to use in one funtion
+ac36459 - it talks about memory alloction perform in in cpp/computer in low level langs like cpp most on to topic 1 - stack(staitic) 2- heap (dynimically)
+67d4dfd - Merge pull request #1 from imDhiraj/test
+0dbbdaf - question around storgly type ness of cpp with auto keyword and it use
+7f3c0b3 - it is used for predefine some values in code that shoud be used reppetively both eunm and preposscer have its use but eunm is little better
+20996f9 - it genrate UD-datatypes that can be stuctureed it is like class but it this are public types by defluft and it define an stucuture
+58a1cf7 - it is an imp topic in proggerming because it deals with the memory use in system In this progrm one of the memory leak case was expained
+4daebeb - bit wise oprater are most used in interview it has 5 main term involves lot like bool opertions in AND OR NOT MUltiple  Divide
+d4b6f9b - it reperents how we can use AND ,OR optation for login base auth systems
+6e80fe6 - most used type of operation in cpp are written but there has to be some specfic use in that so that we can use it 1. combine oprition for storeing the value with  less space uses (ex.+=)
+959fc6d - this has an info of lots of thinks like 1. basics of functions 2. linker in cpp 3. (most imp)Qulifers and its types with incemnet operatoers
+bbac359 - we 2 thinks here as well 1. float down side with th prsoon some time ans it solution for batter use of presionnated values 2. try catch bolck code is used in cpp for expection hadling and having lots of good impact of it over the code and some key uses of it for begger level
+79ee508 - most two majer thing 1 for-each loop(range based loop) 2 we can use reverse logic to stop things
+64e9e79 - new term which tell that if we want to use loop use funtion like while , do..while , or for but for singluer condition cheacking we can use if or if..else kind function
+4fb28d4 - swicth canse
+92ee848 - Add new file and assignmets
+dd40bd2 - Add project files.
+d9e1d85 - Add .gitattributes and .gitignore.
